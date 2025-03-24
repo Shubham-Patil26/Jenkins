@@ -38,7 +38,8 @@ sudo apt-get install docker-ce docker-ce-cli containerd.io docker-buildx-plugin 
 ## Commands
 ### Working with Docker Images
 ```
-docker pull <image_name>           # Download an image from Docker Hub  
+docker pull <image_name>           # Download an image from Docker Hub
+docker push <image_name>           # Uploads an image to a registry.  
 docker images                      # List all downloaded images  
 docker rmi <image_id>              # Remove an image  
 docker build -t <image_name> .     # Build an image from a Dockerfile
@@ -52,7 +53,9 @@ docker ps                                   # List running containers
 docker ps -a                                # List all containers (including stopped)  
 docker stop <container_id>                  # Stop a running container  
 docker start <container_id>                 # Restart a container  
-docker rm <container_id>                    # Remove a container  
+docker rm <container_id>                    # Remove a container
+docker kill <container_id>                  # Forces a container to stop.
+docker restart <container_id>               # Restarts a container. 
 ```
 ### Accessing Running Containers
 ```
