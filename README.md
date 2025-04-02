@@ -1,9 +1,9 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # Docker
 =======
 # Kubernetes-
->>>>>>> fa8c80f35d39683c294e804a670076d2a011e888
 =======
 # Docker
 
@@ -140,4 +140,6 @@ USER	        #Set user and group ID.
 VOLUME	      #Create volume mounts.
 WORKDIR	      #Change working directory.
 ```
->>>>>>> 0048257b02f11691942f57f6c199799d47983f07
+
+=======
+# Jenkins
