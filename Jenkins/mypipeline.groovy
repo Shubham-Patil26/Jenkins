@@ -1,6 +1,12 @@
 pipeline {
     agent any
     stages {
+        stage("Pull") {
+            steps{
+                git 'https://github.com/Shubham-Patil26/studentapp.ui.git'
+                echo "pull is successful"
+            }
+        }
         stage('Build') {
             steps {
                 echo "building is successful"
