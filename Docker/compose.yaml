@@ -1,5 +1,0 @@
-services:
-  webserver:
-    image: shubham8357/docker:dada
-    ports:
-      - "80:80"
